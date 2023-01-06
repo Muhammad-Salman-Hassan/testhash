@@ -1,0 +1,19 @@
+.sidebar {
+  width: 400px;
+  background: rgba(22, 22, 35, 0.6);
+  backdrop-filter: blur(12.5px);
+}
+.logo_wrapper {
+  /* background-color: antiquewhite; */
+  height: 66.64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-top: 51.68px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.logo_wrapper img{
+    width: 80%;
+    height: 80%;
+}

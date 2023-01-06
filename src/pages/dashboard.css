@@ -1,0 +1,11 @@
+.dashboard {
+  background: url("../Images/bigstock-Astronaut-in-suit-against-blac-434152580\ 1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  position: absolute;
+
+  left: 0px;
+  top: 0px;
+}
