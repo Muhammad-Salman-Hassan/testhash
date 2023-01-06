@@ -4,7 +4,7 @@
   backdrop-filter: blur(12.5px);
 }
 .logo_wrapper {
-  /* background-color: antiquewhite; */
+
   height: 66.64px;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 20px;
 
-/* identical to box height */
+
 
 text-align: center;
 margin-left: 10px;
