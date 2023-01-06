@@ -6,14 +6,64 @@
 .logo_wrapper {
   /* background-color: antiquewhite; */
   height: 66.64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 51.68px;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
-.logo_wrapper img{
-    width: 80%;
-    height: 80%;
+.logo_wrapper img {
+  width: 80%;
+  height: 80%;
+}
+.sidebar_wrapper{
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.sidebar_wrapper ul {
+  list-style: none;
+}
+.sidebar_wrapper li {
+  list-style: none;
+  color: white;
+  margin-top: 25px;
+  cursor: pointer;
+  display: flex;
+ 
+}
+.sidebar_wrapper li img {
+  width: 22px;
+
+  height: 24.76px;
+}
+.dashboard_link{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+/* identical to box height */
+
+text-align: center;
+margin-left: 10px;
+color: #FFFFFF;
+}
+.bondToggle{
+  margin-top: 20px;
+}
+.bondToggle li{
+  display: flex;
+  justify-content: space-between;
+  cursor: auto;
+}
+.Bond_Discount{
+  color: #6A6971;
+  
+}
+.social_wrapper{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
 }
