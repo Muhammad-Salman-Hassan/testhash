@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./sidebar.css";
 import logo from "../Images/logo.png";
 import dashboard from "../Images/Vector.png"
@@ -11,9 +11,13 @@ import document from "../Images/Vector (6).png"
 import twitter from "../Images/twitter.png"
 import discord from "../Images/discord.png"
 import telegram from "../Images/telegram.png"
+import { AppContext } from "../context/Appprovider";
+
 const Sidebar = () => {
+  const {toggle,settoggle} = useContext(AppContext)
+  let query=toggle?"displayvisible":"display"
   return (
-    <div className="sidebar ">
+    <div className={`sidebar ${query}`}>
       <div className="sidebar_wrapper w-100  ">
         <div className="logo_wrapper">
           <img src={logo} alt="" />
